@@ -1,7 +1,7 @@
 body {
   padding: 20px;
-  background-color: #343a40; /* Dark background color */
-  color: #fff; /* Light text color */
+  background-color: #DCDCDC;
+  color: #212529;
 }
 
 h1 {
@@ -11,22 +11,22 @@ h1 {
 
 label {
   font-size: 18px;
-  color: #fff; /* Light text color */
+  color: #495057;
 }
 
 input {
   width: 70%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #495057; /* Dark input background color */
-  color: #fff; /* Light text color */
-  border: 1px solid #ced4da; /* Border color */
+  background-color: #f1f3f5;
+  color: #212529;
+  border: 1px solid #2f3032;
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: chocolate;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -45,7 +45,21 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #efa92f;
+}
+
+.prev-next, .view-btn {
+  background-color: rgb(224, 105, 20);
+}
+
+.prev-next:hover, .view-btn:hover {
+  background-color: #e49918;
+}
+
+.prev-next:disabled {
+  cursor: not-allowed;
+  background-color: #6ba5ae;
+  color: #151719; 
 }
 
 .loader {
@@ -66,11 +80,11 @@ button:hover {
 }
 
 .repository-card {
-  background-color: #495057; /* Dark card background color */
+  background-color: #fff;
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light box shadow color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .badge {
